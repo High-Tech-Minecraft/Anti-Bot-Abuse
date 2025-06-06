@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "aba",
+  "version": "${version}",
+  "name": "Anti-Bot-Abuse",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/aba/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.bobisawesome07.aba.client.AntiBotAbuseDataGenerator"
+    ],
+    "client": [
+      "org.bobisawesome07.aba.client.AntiBotAbuseClient"
+    ],
+    "main": [
+      "org.bobisawesome07.aba.AntiBotAbuse"
+    ]
+  },
+  "mixins": [
+    "aba.mixins.json",
+    {
+      "config": "aba.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
