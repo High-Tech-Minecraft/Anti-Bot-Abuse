@@ -1,4 +1,4 @@
-ki# Anti Bot Abuse Mod
+Anti Bot Abuse Mod
 
 A Fabric mod for Minecraft 1.20.1 designed to prevent the misuse of carpet mod bots by restricting how they transport items.
 
