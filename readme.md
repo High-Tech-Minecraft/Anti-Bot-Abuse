@@ -39,8 +39,9 @@ For issues, suggestions, or contributions, please visit our [GitHub repository](
 
 ## License
 
-This mod is licensed under [LICENSE NAME]. You are free to use, modify, and distribute it in accordance with the license terms.
+This mod is licensed under GNU GPLv3. You are free to use, modify, and distribute it in accordance with the license terms.
 
 ---
 
-Enjoy a balanced Minecraft experience with Anti Bot Abuse!
+Enjoy a balanced Minecraft experience w
+ith Anti Bot Abuse!
