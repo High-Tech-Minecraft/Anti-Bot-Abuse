@@ -1,4 +1,4 @@
-# Anti Bot Abuse Mod
+ki# Anti Bot Abuse Mod
 
 A Fabric mod for Minecraft 1.20.1 designed to prevent the misuse of carpet mod bots by restricting how they transport items.
 
@@ -14,6 +14,8 @@ A Fabric mod for Minecraft 1.20.1 designed to prevent the misuse of carpet mod b
 
 - Minecraft 1.20.1
 - Fabric Loader
+- Fabric Api
+- Carpet Mod Fabric by Gnembon
 
 ### Steps
 
