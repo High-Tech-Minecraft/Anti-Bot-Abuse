@@ -3,7 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "2.1.21"
-    id("fabric-loom") version "1.7.1"
+    id("fabric-loom") version "1.10-SNAPSHOT"
     id("maven-publish")
 }
 
@@ -42,8 +42,8 @@ fabricApi {
 
 repositories {
     maven {
-		url 'https://masa.dy.fi/maven'
-	}
+        url = uri("https://masa.dy.fi/maven")
+    }
 }
 
 dependencies {
@@ -52,7 +52,7 @@ dependencies {
     mappings("net.fabricmc:yarn:${project.property("yarn_mappings")}:v2")
     modImplementation("net.fabricmc:fabric-loader:${project.property("loader_version")}")
     modImplementation("net.fabricmc:fabric-language-kotlin:${project.property("kotlin_loader_version")}")
-    modImplementation "carpet:fabric-carpet:${project.minecraft_version}-${project.carpet_core_version}"
+    modImplementation("carpet:fabric-carpet:1.20-${project.property("carpet_core_version")}")
 
     modImplementation("net.fabricmc.fabric-api:fabric-api:${project.property("fabric_version")}")
 }
